@@ -1,0 +1,13 @@
+{
+  "example": "data",
+  "someLocal": {
+    "api": "data",
+    "system": {
+      "settings": {
+        "local": true,
+        "remote": false,
+        "options": ["local", "remote", "other"]
+      }
+    }
+  }
+}
