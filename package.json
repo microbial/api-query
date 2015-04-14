@@ -1,0 +1,31 @@
+{
+  "name": "api-query",
+  "version": "1.0.0",
+  "description": "Search with deep-links",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microbial/api-query.git"
+  },
+  "author": "Dwayne Ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microbial/api-query/issues"
+  },
+  "homepage": "https://github.com/microbial/api-query",
+  "dependencies": {
+    "restify": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.1",
+    "gulp-util": "^3.0.4"
+  }
+}
